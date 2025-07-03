@@ -107,7 +107,7 @@ function LegalPage({ language, setLanguage }) {
   const [langDropdown, setLangDropdown] = useState(false);
 
   const handleBack = () => {
-    navigate("/", { replace: true });
+      navigate("/", { replace: true });
   };
 
   // Deutscher Text
